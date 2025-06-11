@@ -1,0 +1,100 @@
+
+
+
+SAP SuccessFactors Learning OData APIs
+SAP SuccessFactors Learning Micro Services List                                                                 PUBLIC   59
+Property Name                Description                                    Property Type
+
+creditHours                  Credit hours are the number of hours           Edm.Double
+                             that a user earns for completing a learn-
+                             ing event. For example, in many U.S. col-
+                             leges, students attend a single class for
+                             15 weeks, 3 days each week, and 1 hour
+                             each day. In this case, the total hours
+                             equal 45; however, the college grants
+                             3 CREDIT HOURS for this class. The
+                             hours can be inherited from the learning
+                             event (the course) or they can be speci-
+                             fied when a user, manager, or administra-
+                             tor records completion with the Record
+                             Learning wizard.
+
+cpeHours                     CPE is an abbreviation for "Continuing         Edm.Double
+                             Professional Education" and refers to
+                             learning activities that users perform to
+                             maintain and expand the skills that their
+                             profession demands. Therefore, CPE
+                             hours are very much like credit hours,
+                             but the accumulation of CPE hours often
+                             leads to a professional certification. The
+                             hours can be inherited from the learning
+                             event (the course) or they can be speci-
+                             fied when a user, manager, or administra-
+                             tor records completion with the Record
+                             Learning wizard.
+
+defaultInitialNumber         The initial number is the number of days,      Edm.Int64
+                             weeks, months, quarters, or years that
+                             the user has in their initial retraining pe-
+                             riod for this learning item. Retraining pe-
+                             riods apply when the learning item is a
+                             member of a curriculum. It is the grace
+                             period when users are first assigned a
+                             learning item. Although they might be
+                             required to retrain on the learning item
+                             every year, they might be assigned the
+                             curriculum (and learning item) in the last
+                             month of the year. The initial period gives
+                             them a grace period to complete the first
+                             training.
+
+defaultInitialPeriodTypeID   This is the unit for the initial period (days, Edm.String
+                             weeks months, quarters, or years).
+
+
+
+
+                                                                                       SAP SuccessFactors Learning OData APIs
+60   PUBLIC                                                                   SAP SuccessFactors Learning Micro Services List
+Property Name                                     Description                                     Property Type
+
+defaultInitialBasisTypeID                         The basis type can be calendar or event.        Edm.String
+                                                  In a calendar basis type, the user must
+                                                  retrain on a learning item on a time-in-
+                                                  terval based on the calendar (like every
+                                                  month). In an event, the period is based
+                                                  on an event, like completing the first
+                                                  round of training.
+
+initialPeriodLabelID                              The label ID for the initial period, so that    Edm.String
+                                                  you can look up the language.
+
+initialBasisLabelID                               The label ID for the initial basis, so that     Edm.String
+                                                  you can look up the exact language.
+
+defaultRetrainingNumber                           After the initial period, users must re-        Edm.Int64
+                                                  train. This is the number of days, weeks,
+                                                  months, quarters, or years that the users
+                                                  have to complete the retraining on the
+                                                  learning item.
+
+defaultRetrainingPeriodType                       The period that a user must retrain af-         Edm.String
+ID                                                ter the initial period. This can be days,
+                                                  weeks, months, quarters, or years.
+
+defaultRetrainingBasisTypeI                       The retraining period type can be either        Edm.String
+D                                                 calendar or event. If it is calendar, then
+                                                  the user must retrain based on a time-
+                                                  based interval (such as annually, regard-
+                                                  less of when the user completed the last
+                                                  training). If it is event, then the user must
+                                                  retrain based on an event (such as a year
+                                                  after completing the training).
+
+retrainingPeriodLabelID                           The label ID for the retraining period, so      Edm.String
+                                                  that you can look up the language.
+
+retrainingBasisLabelID                            The label ID for the training basis, so that    Edm.String
+                                                  you can look up the language.
+
+comments                                          Comments from the instructor.                   Edm.String
