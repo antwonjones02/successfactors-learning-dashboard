@@ -1,0 +1,41 @@
+[
+  {
+    "id": "blended_learning",
+    "name": "Blended Learning",
+    "description": "Combines instructor-led and online training within SuccessFactors LMS.",
+    "benefits": "Provides flexible learning paths that blend different delivery formats.",
+    "leverage": "Use to deliver mixed-mode training programs and track progress comprehensively.",
+    "user_experience": "Learners see both ILT and online components within a single item.",
+    "tips": "Schedule ILT sessions in advance and include pre-work online modules.",
+    "user_docs": "https://help.sap.com/docs/SAP_SUCCESSFACTORS_LEARNING/blended-learning-user-guide",
+    "admin_docs": "https://help.sap.com/docs/SAP_SUCCESSFACTORS_LEARNING/blended-learning-admin-guide",
+    "status": "available",
+    "release_date": "2022-05-01"
+  },
+  {
+    "id": "machine_learning_recommendations",
+    "name": "Machine Learning Recommendations",
+    "description": "AI-based course recommendations tailored to learner profile and history.",
+    "benefits": "Increases engagement by suggesting relevant content.",
+    "leverage": "Enable to let system propose courses based on user behavior.",
+    "user_experience": "Learners see personalized recommendations on their homepage.",
+    "tips": "Ensure sufficient historical data for better predictions.",
+    "user_docs": "https://help.sap.com/docs/SAP_SUCCESSFACTORS_LEARNING/recommendations-user-guide",
+    "admin_docs": "https://help.sap.com/docs/SAP_SUCCESSFACTORS_LEARNING/recommendations-admin-guide",
+    "status": "available",
+    "release_date": "2023-09-15"
+  },
+  {
+    "id": "skills_assessment",
+    "name": "Skills Assessment",
+    "description": "Allows assessment of learner skills and gap analysis.",
+    "benefits": "Helps align training with skill gaps and organizational needs.",
+    "leverage": "Use to measure skill proficiency and plan targeted learning.",
+    "user_experience": "Learners complete skill assessments and view results.",
+    "tips": "Combine with curricula to address identified gaps.",
+    "user_docs": "https://help.sap.com/docs/SAP_SUCCESSFACTORS_LEARNING/skills-assessment-user-guide",
+    "admin_docs": "https://help.sap.com/docs/SAP_SUCCESSFACTORS_LEARNING/skills-assessment-admin-guide",
+    "status": "coming_soon",
+    "release_date": "2024-08-01"
+  }
+]
